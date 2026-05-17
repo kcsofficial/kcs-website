@@ -1,0 +1,91 @@
+export default function KCSWebsite() { return ( <div className="min-h-screen bg-white text-black"> <header className="bg-orange-500 text-white p-6 shadow-lg"> <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between"> <div> <h1 className="text-4xl font-bold">KCS – Krishna Chhatr Shakti</h1> <p className="text-lg mt-2">Students Ki Awaaz • Hamara Sankalp</p> </div> <button className="bg-black text-white px-6 py-3 rounded-2xl mt-4 md:mt-0 hover:scale-105 transition"> Join KCS </button> </div> </header>
+
+<section className="max-w-6xl mx-auto py-16 px-6 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <h2 className="text-5xl font-bold text-orange-600 mb-6">Official Student Team</h2>
+      <p className="text-lg leading-8 text-gray-700">
+        KCS ek student organization hai jo students ki problems, guidance,
+        support aur leadership ke liye kaam karti hai.
+      </p>
+
+      <div className="mt-8 flex gap-4 flex-wrap">
+        <button className="bg-orange-500 text-white px-6 py-3 rounded-2xl shadow-lg">
+          Complaint Form
+        </button>
+        <button className="border-2 border-black px-6 py-3 rounded-2xl">
+          Contact Team
+        </button>
+      </div>
+    </div>
+
+    <div className="bg-orange-100 rounded-3xl p-10 shadow-xl text-center">
+      <div className="text-8xl">🛡️</div>
+      <h3 className="text-3xl font-bold mt-4">KCS Helpline</h3>
+      <p className="mt-3 text-xl font-semibold">8817204133</p>
+    </div>
+  </section>
+
+  <section className="bg-black text-white py-16 px-6">
+    <div className="max-w-6xl mx-auto">
+      <h2 className="text-4xl font-bold text-center mb-12">KCS Services</h2>
+
+      <div className="grid md:grid-cols-3 gap-8">
+        <div className="bg-zinc-900 p-6 rounded-3xl shadow-lg">
+          <h3 className="text-2xl font-bold mb-4">Complaint Support</h3>
+          <p>Students ki problems aur complaints ko support dena.</p>
+        </div>
+
+        <div className="bg-zinc-900 p-6 rounded-3xl shadow-lg">
+          <h3 className="text-2xl font-bold mb-4">Events</h3>
+          <p>College events, awareness campaigns aur volunteer work.</p>
+        </div>
+
+        <div className="bg-zinc-900 p-6 rounded-3xl shadow-lg">
+          <h3 className="text-2xl font-bold mb-4">Leadership</h3>
+          <p>Students ko leadership aur teamwork ka platform dena.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section className="py-16 px-6 bg-gray-100">
+    <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-xl p-10">
+      <h2 className="text-4xl font-bold text-center mb-10">Join KCS</h2>
+
+      <div className="grid gap-6">
+        <input
+          type="text"
+          placeholder="Full Name"
+          className="border p-4 rounded-2xl"
+        />
+
+        <input
+          type="text"
+          placeholder="Mobile Number"
+          className="border p-4 rounded-2xl"
+        />
+
+        <input
+          type="text"
+          placeholder="College Name"
+          className="border p-4 rounded-2xl"
+        />
+
+        <textarea
+          placeholder="Why do you want to join KCS?"
+          className="border p-4 rounded-2xl h-32"
+        ></textarea>
+
+        <button className="bg-orange-500 text-white py-4 rounded-2xl text-xl font-bold hover:scale-105 transition">
+          Submit Form
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <footer className="bg-orange-500 text-white text-center py-6 text-lg font-semibold">
+    © 2026 KCS – Krishna Chhatr Shakti | Official Student Team
+  </footer>
+</div>
+
+); }
